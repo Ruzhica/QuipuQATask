@@ -1,5 +1,4 @@
 import { test, expect } from '@playwright/test';
-import { HomePage } from '../pages/homePage';
 import { SearchPage } from '../pages/searchPage';
 
 test.describe('Search Feature from search page', () => {

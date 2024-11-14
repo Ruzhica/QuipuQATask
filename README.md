@@ -46,22 +46,7 @@ Steps to Reproduce:
 3.Observe the redirection behavior.
 
 Expected Result: After logging in, the user should be redirected to their account dashboard or the page they were previously on.
-Actual Result: The user remains on the same login page even after a successful login.
-
-Severity: Medium
-Priority: High
-
-# 3: Add to Cart Button Overlaps with Other Elements
-Title: Add to Cart Button Overlaps with Other Elements on Mobile View
-Description: The "Add to cart" button overlaps with other elements when viewed on mobile devices, making it difficult to interact with the button.
-
-Steps to Reproduce:
-1.Open the website on a mobile device or in mobile simulation mode.
-2.Go to a product page (e.g., a "Dress").
-3.Attempt to click the "Add to cart" button.
-
-Expected Result: The "Add to cart" button should be clearly visible and not overlap with any other elements.
-Actual Result: The button overlaps with other UI elements, and the user may have difficulty clicking it.
+Actual Result: The user remains on the same login page even after a successful login. 
 
 Severity: Medium
 Priority: High

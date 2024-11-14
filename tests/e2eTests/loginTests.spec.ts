@@ -15,9 +15,7 @@ test.describe('Login Scenarios on Automation Practice', () => {
     });
 
     test('Login with valid credentials should succeed', async ({ page }) => {
-         // Navigate to the login page
     await loginPage.navigateToLoginPage();
-    // Perform login with valid credentials (from the JSON file)
     await loginPage.login();
     // Get the username from the credentials JSON file
     const expectedUsername = loginPage.credentials.username;
@@ -28,7 +26,6 @@ test.describe('Login Scenarios on Automation Practice', () => {
     });
 
     test('Login with invalid credentials should show error message', async ({ page }) => {
-        // Navigate to the login page
         await loginPage.navigateToLoginPage();
         
         // Perform login with invalid credentials
